@@ -24,7 +24,7 @@ const Navbar = ({ username = "dummy", transparencyNavbar = true, togglePresent =
     <>
       {/* navbar */}
       <div className={`flex justify-between py-2 pl-4 pr-[5%] items-center top-0 z-10 sticky ${transparencyNavbar ? "bg-transparent" : "bg-[#0d0d13f0]"}`}>
-        <div className="text-center text-cyan-500 text-[2.307rem] font-extrabold font-['Inter'] hover:cursor-pointer" onClick={onLogoClick}>Slinkly</div>
+        <div className="text-center text-cyan-500 text-[2.307rem] font-extrabold font-['Inter'] hover:cursor-pointer" onClick={onLogoClick}>Short.me</div>
         <div className="flex justify-center items-center">
           <button className="mr-10 text-xl p-1.5 rounded-[48px] text-yellow-600 pl-[25px] pr-[25.05px] py-[11px] hidden sm:inline" onClick={handlePremiumclick}>PREMIUM</button>
           {togglePresent? <span onClick={handleUserDropdown} className="flex justify-center items-center gap-2 cursor-pointer">

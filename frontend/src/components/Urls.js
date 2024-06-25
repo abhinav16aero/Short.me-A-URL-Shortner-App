@@ -17,7 +17,7 @@ const Urls = () => {
 
             <div className="border-t-2 p-1 flex flex-col sm:flex-row sm:justify-between sm:p-3 text-lg sm:leading-8 items-left my-0">
                 <div className="overflow-hidden">
-                    <div className="text-2xl hover:underline"><a href="/">https://www.slinkly.in</a></div>
+                    <div className="text-2xl hover:underline"><a href="/">https://www.short.me</a></div>
                     <div className="opacity-50 hover:underline"><a href="/">{limitLinkLength("https://www.youtube.com/watch?v=H9M02of22z4&t=111s", 34)}</a></div>
                     <div className="text-[1rem]"><span className="m-1"><i class="fa-solid fa-calendar-days"></i></span><span className="">23-01-2024</span></div>
                 </div>

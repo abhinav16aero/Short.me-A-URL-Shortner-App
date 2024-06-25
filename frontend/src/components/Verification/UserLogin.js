@@ -43,7 +43,7 @@ function UserLogin() {
       <div className="bg-[url('../src/images/background.jpg')] min-h-screen bg-cover flex flex-col">
         <div className="w-full justify-center items-center inline-flex mt-2 flex-col">
           <div className="grow shrink basis-0 self-stretch justify-between items-center inline-flex ml-4">
-            <div className="text-center text-cyan-500 text-[2.307rem] font-extrabold font-['Inter'] hover:cursor-pointer" onClick={handleLogoClick}>Slinkly</div>
+            <div className="text-center text-cyan-500 text-[2.307rem] font-extrabold font-['Inter'] hover:cursor-pointer" onClick={handleLogoClick}>Short.me</div>
           </div>
         </div>
         <div className="bg-gray-500 bg-opacity-25 rounded-3xl w-[80%] sm:w-[40%] ml-20 mt-10 mb-10 p-14 pr-9 pl-9 flex-initial">
