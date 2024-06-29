@@ -8,7 +8,16 @@ const urlcontrollers = require('./controllers/urlControllers.js')
 
 const app = express()
 
-
+import http from 'http';
+ 
+// Create a server object
+const server = http.createServer((req, res) => {
+    // Set the response header
+    res.writeHead(200, {'Content-Type': 'text/plain'});
+    // Write some text to the response
+    res.end('Welcome to my simple Node.js app!');
+});
+ 
 
 require('dotenv').config()
 app.use(express.urlencoded({extended: false}))
