@@ -1,4 +1,4 @@
-# Shorty, URL Shortner App
+# Short.me, URL Shortner App
 
 ### Features Implemented:
 - Authentication using JWT Token
